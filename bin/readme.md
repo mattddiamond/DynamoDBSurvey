@@ -1,5 +1,5 @@
 # Simple application to write data from webpage to Amazon DynamoDB 
-The example can be running in a few steps. 
+### The example can be running in a few steps. 
 1)	Ensure you install and configure NodeJS https://nodejs.org/en/ on your local workstation 
     a)	You can check this by typing at a command window: “node --version” (without the double quotes)
 2)	Install the AWS SDK for JavaScript https://aws.amazon.com/sdk-for-node-js/ 
@@ -45,4 +45,4 @@ The example can be running in a few steps.
     c)	Also in VSCode, the data is logged to the console
 
 #### Disclaimer: 
-The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way.  This code has no warrnanty, expressed or implied.  
+The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way.  This code has no warrnanty, expressed or implied.
