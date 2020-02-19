@@ -12,8 +12,8 @@
   e)	Tick the “Programmatic access” check box  
   f)	Click “Next: Permissions”  
   g)	In permissions window, select “Attach existing policies directly”  
-    i)	In the search box type “dynamo”  
-    ii)	Tick the “AmazonDynamoFullDBAccess” policy  
+   i)	In the search box type “dynamo”  
+   ii)	Tick the “AmazonDynamoFullDBAccess” policy  
   h)	Click “Next: Tags”  
   i)	Click “Next: Review”  
   j)	 Click “Create User”  
