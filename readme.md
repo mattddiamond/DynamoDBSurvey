@@ -1,5 +1,5 @@
-#Simple application to write data from webpage to Amazon DynamoDB 
-The example can be running in a few steps. 
+# Simple application to write data from webpage to Amazon DynamoDB 
+### The example can be running in a few steps. 
 1)	Ensure you install and configure NodeJS https://nodejs.org/en/ on your local workstation 
     a)	You can check this by typing at a command window: “node --version” (without the double quotes)
 2)	Install the AWS SDK for JavaScript https://aws.amazon.com/sdk-for-node-js/ 
@@ -33,7 +33,7 @@ The example can be running in a few steps.
     f)	In Primary Key Filed type “CRA_ID”
     g)	Click Create
 6)	Download the code from this GitHub Repo as a .zip and unzip into your favorite directory
-7)	Open the survey directory in VSCode (File → open, select root of survey folder and click “open)
+7)	Open the DynamoDBSurvey directory in VSCode (File → open, select root of survey folder and click “open)
     a)	From the terminal menu, select “New Terminal”
     b)	This starts a terminal session in the bottom right corner of your VSCode window
 8)	type “npm install” (without the double quotes)
@@ -41,9 +41,8 @@ The example can be running in a few steps.
 
 10)	Test it out:
     a)	In your favorite web browser, head to http://localhost:3000 you should see the survey 
-    b)	After submitting sample data, you should see the data in the table in DynamoDB – Click “Table” in left Navigation, select the “Item” tab along top row
+    b)	After submitting sample data, you should see the data in the table in DynamoDB – Click “Table” in left Navigation, select the “Item” tab along top row to view records added to the DynamoDB table
     c)	Also in VSCode, the data is logged to the console
 
-####Please note:
-This 
-*** 
+#### Disclaimer: 
+The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way. This code has no warrnanty, expressed or implied.
