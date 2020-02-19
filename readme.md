@@ -1,22 +1,23 @@
 # Simple application to write data from webpage to Amazon DynamoDB 
 ### The example can be running in a few steps. 
 1)	Ensure you install and configure NodeJS https://nodejs.org/en/ on your local workstation 
-    a)	You can check this by typing at a command window: “node --version” (without the double quotes)
+
+  a)	You can check this by typing at a command window: “node --version” (without the double quotes)
 2)	Install the AWS SDK for JavaScript https://aws.amazon.com/sdk-for-node-js/ 
-3)	Create a user with programmatic access
-    a)	In browser, login to the AWS Console, to go IAM
-    b)	Click users in left navigation click “users”
-    c)	Click “Add user” button 
-    d)	In Add User Windows create a new user “survey-user-pa” 
-    e)	Tick the “Programmatic access” check box
-    f)	Click “Next: Permissions”
-    g)	In permissions window, select “Attach existing policies directly”
-        i)	In the search box type “dynamo”
-        ii)	Tick the “AmazonDynamoFullDBAccess” policy  
-    h)	Click “Next: Tags”
-        i)	Click “Next: Review”
-    j)	 Click “Create User”
-    k)	Copy the Access Key and Secret Access Key somewhere safe (like a text file on your workstation) 
+3)	Create a user with programmatic access  
+  a)	In browser, login to the AWS Console, to go IAM  
+  b)	Click users in left navigation click “users”  
+  c)	Click “Add user” button  
+  d)	In Add User Windows create a new user “survey-user-pa”  
+  e)	Tick the “Programmatic access” check box  
+  f)	Click “Next: Permissions”  
+  g)	In permissions window, select “Attach existing policies directly”  
+    i)	In the search box type “dynamo”  
+    ii)	Tick the “AmazonDynamoFullDBAccess” policy  
+  h)	Click “Next: Tags”  
+  i)	Click “Next: Review”  
+  j)	 Click “Create User”  
+  k)	Copy the Access Key and Secret Access Key somewhere safe (like a text file on your workstation)  
 4)	Configure AWS SDK: 
     a)	Start a command window type “AWS Configure”
     b)	Enter in the AWS Access Key ID you created earlier
