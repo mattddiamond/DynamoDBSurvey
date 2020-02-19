@@ -20,7 +20,7 @@
 4)	Configure AWS SDK: 
     a)	Start a command window type “AWS Configure”
     b)	Enter in the AWS Access Key ID you created earlier
-    c)	Enter in the AWS Secret Access Key you created earlier 
+    c)	Enter in the AWS Secret Access Key you created earlier
     d)	Enter a default region name: us-east-2
     e)	Default output format (you can just hit enter)
     f)	You can close this window once the process completes
