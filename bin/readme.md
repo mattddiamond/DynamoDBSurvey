@@ -41,7 +41,7 @@
 
 10)	Test it out:
     a)	In your favorite web browser, head to http://localhost:3000 you should see the survey 
-    b)	After submitting sample data, you should see the data in the table in DynamoDB – Click “Table” in left Navigation, select the “Item” tab along top row
+    b)	After submitting sample data, you should see the data in the table in DynamoDB – Click “Table” in left Navigation, select the “Item” tab along top row to view records added to the DynamoDB table
     c)	Also in VSCode, the data is logged to the console
 
 #### Disclaimer: 
