@@ -45,4 +45,4 @@
     c)	Also in VSCode, the data is logged to the console
 
 #### Disclaimer: 
-The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way. This code has no warrnanty, expressed or implied.
+The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way. This code has no warrnanty, expressed or implied. 
