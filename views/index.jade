@@ -1,0 +1,24 @@
+html
+head
+link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css')
+body
+
+
+block content
+  .main.container
+    .row
+      .col-md-6.col-md-offset-3
+        h1.display-4.m-b-2 CRA Survey Form
+
+        // register form
+        form(method='POST' action='/submit')
+          div.form-group
+            label(for='name') Name:
+            input#name.form-control(type='text', placeholder='Your Name' name='name')
+          div.form-group
+            label(for='email') Email:
+            input#email.form-control(type='email', placeholder='name@email.com' name='email')
+          div.form-group
+            label(for='riskscore') Site Risk Score:
+            input#riskscore.form-control(type='text', placeholder='Risk Score in Integer' name='riskscore')
+          button.btn.btn-primary(type='submit') Send Survey
