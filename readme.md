@@ -43,7 +43,7 @@ a)	You can check this by typing at a command window: “node --version” (witho
     a)	From the terminal menu, select “New Terminal”  
     b)	This starts a terminal session in the bottom right corner of your VSCode window  
   #####
-8)	Type “npm install” (without the double quotes)  
+8)	Type “npm install -g” (without the double quotes) Note: "-g" will update packages with latest version of package and may require elevated permissions i.e. sudo or Administrator 
   #####
 9)	Type “npm start” (without the double quotes)  
 #####
