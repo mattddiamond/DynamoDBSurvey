@@ -2,19 +2,16 @@ var express = require('express');
 var router = express.Router();
 
 
-
-
-
 /* Execute code */
 router.post('/', function(req, res, next) {
   //res.send('respond with a resource');
         //Load uuid object
-        var uuidv4 = require('uuid/v4');
+        const { v4: uuidv4 } = require('uuid');; //removed v4
         var suuid = uuidv4();
         // Load the AWS SDK for Node.js
         var AWS = require('aws-sdk');
         // Set the region 
-        AWS.config.update({region: 'us-east-2'});
+        AWS.config.update({region: 'us-east-1'});
 
         // Create the DynamoDB service object
         var ddb = new AWS.DynamoDB({apiVersion: '2012-08-10'});
@@ -41,17 +38,20 @@ router.post('/', function(req, res, next) {
         console.log('riskscore:',req.body.riskscore);
         console.log('-------------------------------------------');
 
-        res.send('Data Submitted!');
-
-        // Call DynamoDB to add the item to the table
-        ddb.putItem(params, function(err, data) {
-        if (err) {
-            console.log("Error", err);
-        } else {
-            console.log("Success", data);
+async function putIt (){
+    try
+        {
+            var result = await ddb.putItem(params).promise();
+            res.send('Data Collected');
         }
-        });
+    catch(err)
+        {
+            console.log("error from fn:",err);
+        }
+   
+};
 
+putIt();
 
 }); //router.get end colon
 
